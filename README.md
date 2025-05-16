@@ -75,9 +75,9 @@ cf ssh django-demo
 ```
 
 ### Log in, test database connection
-http://0.0.0.0:8080/admin
+https://django-demo.app.cloud.gov/admin
 go to
-http://0.0.0.0:8080/simpleapp
+https://django-demo.app.cloud.gov//simpleapp
 
 ### Log in, test database connection
 ```
