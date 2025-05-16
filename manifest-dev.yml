@@ -1,0 +1,11 @@
+---
+applications:
+- name: django-demo
+  route: django-demo.app.cloud.gov
+  buildpacks:
+    - python_buildpack
+  memory: 512M
+  services:
+    - django-demo-rds
+  env:
+    DISABLE_COLLECTSTATIC: 1
