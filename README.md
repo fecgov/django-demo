@@ -48,8 +48,6 @@ http://0.0.0.0:8080/simpleapp
 
 # cloud.gov
 
-Deploy the app with `cf push -f manifest-dev.yml`
-
 ### Create database service (if it's not already there)
 ```
 cf create-service aws-rds small-psql-redundant login-demo-rds
