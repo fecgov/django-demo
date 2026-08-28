@@ -4,7 +4,7 @@ This is a demo Django app with postgres database connection designed to be easil
 # Local setup
 ### Set up virtualenv, install requirements
 ```
-pyenv virtualenv 3.11 django-demo
+pyenv virtualenv 3.13 django-demo
 pyenv activate django-demo
 pip install -r requirements.txt
 ```
