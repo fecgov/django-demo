@@ -59,7 +59,7 @@ cf login --sso
 ```
 target fec-fecfile, dev space
 ```
-cf push -f manifest-dev.yml
+cf push -f manifest-demo-dev.yml
 ```
 
 ### Test on cloud.gov
