@@ -50,7 +50,7 @@ http://0.0.0.0:8080/simpleapp
 
 ### Create database service (if it's not already there)
 ```
-cf create-service aws-rds small-psql-redundant django-demo-rds
+cf create-service aws-rds small-psql-redundant django-demo-rds -c '{"version": "15"}'
 ```
 
 ### Deploy to cloud.gov
